@@ -93,11 +93,11 @@ const HeroSec = () => {
                             {slide3 && <TypewriterComponent
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString(`something`)
+                                        .typeString(`FOIL YOUR OPPONENT`)
                                         .deleteAll()
-                                        .typeString(`something`)
+                                        .typeString(`FOIL YOUR OPPONENT`)
                                         .deleteAll()
-                                        .typeString(`something`)
+                                        .typeString(`FOIL YOUR OPPONENT`)
                                         .deleteAll()
                                         // move to next and disable others 
                                         .callFunction(() => {
@@ -121,11 +121,11 @@ const HeroSec = () => {
                             {slide4 && <TypewriterComponent
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString(`something`)
+                                        .typeString(`PRIMED AND READY`)
                                         .deleteAll()
-                                        .typeString(`something`)
+                                        .typeString(`PRIMED AND READY`)
                                         .deleteAll()
-                                        .typeString(`something`)
+                                        .typeString(`PRIMED AND READY`)
                                         .deleteAll()
                                         // move to next and disable others 
                                         .callFunction(() => {
